@@ -1,0 +1,211 @@
+body{
+
+}
+
+/*part1*/
+.container{
+}
+.nav-1{
+position:fixed !important;
+transition: 1s;
+ padding-top: 2%;
+}
+.nav-style{
+  font-style: "Raleway";
+  font-size: 1.2rem;
+}
+.nav-scroll{
+background-color: #F7DAD9;
+color: white;
+}
+.body-scroll{
+  padding-top: 20px;
+}
+
+#part1{
+ padding-top: 2%;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  padding:0 0 40% 0;
+  text-align: center;
+  justify-content: center;
+  background-image: url('../images/navbar1.png');
+
+}
+.part1{
+padding: 5% 0 0 0;
+justify-content: center;
+font-family: "Raleway";
+color: #716F81;
+font-weight: 800;
+}
+.part1-2{
+font-family: "Raleway";
+font-weight: 400;
+color: #716F81;
+}
+
+
+/*part2*/
+#part2{
+  background-image: url('../images/part2.gif');
+  background-size: cover;
+  background-repeat:no-repeat;
+  padding: 15% 0 15% 30%;
+
+}
+.part2-1{
+
+  align-items: center;
+  justify-content: center;
+  display: block;
+    font-family: "Raleway";
+    color:#5D534A;
+}
+
+/*part3*/
+#part3{
+  overflow-x: hidden;
+}
+.sec1-bg {
+  background-image: url('../images/1.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20% 10%;
+}
+
+.sec1-bg:hover {
+  transform: rotateY(180deg);
+  transition: 1.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  background-image: url('../images/11.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec2-bg {
+  background-image: url('../images/2.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20% 10%;
+}
+
+.sec2-bg:hover {
+  transform: rotateY(180deg);
+  transition: 1.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  background-image: url('../images/22.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec3-bg {
+  background-image: url('../images/3.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20% 10%;
+}
+
+.sec3-bg:hover {
+  transform: rotateY(180deg);
+  transition: 1.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  background-image: url('../images/33.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/*part4*/
+#part4{
+text-align: center;
+}
+.fab{
+color: #5E8B7E;
+}
+.part4-style{
+  font-family: "Raleway";
+  font-size: 1rem;
+}
+
+
+
+
+
+/*end*/
+@media only screen and (max-width: 586px) {
+
+#part1{
+  background-attachment: scroll;
+}
+.part1{
+  padding: 5% 20% 0 18%;
+  width: 100vw;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #716F81;
+  text-align: center;
+}
+
+#part2{
+  font-size: 50%;
+  width: 100%;
+  height: 100%;
+  background-size:150%;
+  padding: 0 0 10% 50%;
+}
+.part2-1{
+  padding: 20% 0 0 30%;
+}
+
+#part3{
+  margin: 10% 0;
+  overflow-x: hidden;
+}
+.sec1-bg, .sec2-bg, .sec3-bg{
+  background-size: 50%;
+  padding: 30% 20%;
+}
+ .sec1-bg:hover, .sec2-bg:hover ,.sec3-bg:hover{
+     background-size: 50%;
+ }
+}
+
+
+
+
+
+@media only screen and (min-width: 586px) and (max-width: 1400px) {
+
+  #part1{
+    background-attachment: scroll;
+
+  }
+  .part1{
+  }
+  #part2{
+    font-size: 50%;
+    width: 100%;
+    height: 100%;
+    background-size:130%;
+    padding: 15% 0 10% 40%;
+  }
+
+.part2-1{
+  padding: 5% 0 20% 10%;
+}
+#part3{
+  overflow-x: hidden;
+}
+
+}
